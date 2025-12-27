@@ -4,7 +4,6 @@ import { useFhevm } from "../fhevm/useFhevm";
 import { useInMemoryStorage } from "../hooks/useInMemoryStorage";
 import { useRainbowEthersSigner } from "../hooks/rainbow/useRainbowEthersSigner";
 import { useStrengthTracker } from "@/hooks/useStrengthTracker";
-import { errorNotDeployed } from "./ErrorNotDeployed";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { 
